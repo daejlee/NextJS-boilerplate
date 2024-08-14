@@ -1,6 +1,6 @@
 # NextJS-boilerplate
 
-For faster kick-off, followings are installed.
+Followings are installed.
 
 - NextJS App Router
 - ESLint(airbnb-config)
