@@ -7,3 +7,5 @@ For faster kick-off, followings are installed.
 - Prettier
 - TailwindCSS
 - shadcn/ui
+
+Packages are all in sync.
