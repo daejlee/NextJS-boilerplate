@@ -8,4 +8,4 @@ Followings are installed.
 - TailwindCSS
 - shadcn/ui
 
-Packages are all in sync.
+Packages are all in sync. Run ```npm install``` inside the boilerplate directory.
