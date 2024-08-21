@@ -65,10 +65,10 @@
     @apply border-border;
   }
   body {
-    @apply bg-gray-200 flex justify-center text-foreground min-h-screen;
+    @apply flex min-h-screen justify-center text-foreground;
   }
   .body-content {
-    @apply bg-white max-w-[375px] w-full;
+    @apply w-full max-w-[375px] border;
     /* 375px is chrome devtool's mobile medium size. */
   }
 }
