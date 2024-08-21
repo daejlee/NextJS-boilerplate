@@ -7,5 +7,6 @@ Followings are installed.
 - Prettier
 - TailwindCSS
 - shadcn/ui
+- zustand
 
 Packages are all in sync. Run ```npm install``` inside the boilerplate directory.
