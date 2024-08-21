@@ -1,6 +1,13 @@
 {
-  "extends": ["prettier", "airbnb", "airbnb-typescript"],
-  "plugins": ["prettier"],
+  "extends": [
+    "prettier",
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:storybook/recommended"
+  ],
+  "plugins": [
+    "prettier"
+  ],
   "rules": {
     "prettier/prettier": "error"
   },
