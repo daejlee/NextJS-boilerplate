@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         {/* Wrapped with main-content CSS. Check it in global.css */}
-        <div className='main-content'>{children}</div>
+        <div className='body-content'>{children}</div>
         <Toaster />
       </body>
     </html>
