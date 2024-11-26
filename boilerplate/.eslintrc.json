@@ -1,17 +1,27 @@
 {
-  "extends": [
+  "plugins": [
+    "import",
+    "jsx-a11y",
     "prettier",
+    "react",
+    "react-hooks"
+  ],
+  "extends": [
+    "plugin:import/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
     "airbnb",
     "airbnb-typescript",
-    "plugin:storybook/recommended"
+    "next"
   ],
-  "plugins": [
-    "prettier"
-  ],
-  "rules": {
-    "prettier/prettier": "error"
-  },
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "tsconfig.json"
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": ["warn", {
+      "exceptions": ["NextThemesProvider"]
+    }]
   }
 }

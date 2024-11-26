@@ -1,14 +1,14 @@
-import { ThemeProvider } from "@/components/theme-provider";
-import { Toaster } from "@/components/ui/toaster";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import ThemeProvider from '@/components/theme-provider';
+import { Toaster } from '@/components/ui/toaster';
+import './globals.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Boilerplate",
-  description: "Boilerplate for Next.js with Tailwind CSS and TypeScript",
+  title: 'Boilerplate',
+  description: 'Boilerplate for Next.js with Tailwind CSS and TypeScript',
 };
 
 export default function RootLayout({
