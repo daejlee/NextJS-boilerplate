@@ -2,7 +2,6 @@
   "plugins": [
     "import",
     "jsx-a11y",
-    "prettier",
     "react",
     "react-hooks"
   ],
@@ -11,7 +10,6 @@
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:prettier/recommended",
     "airbnb",
     "airbnb-typescript",
     "next"
